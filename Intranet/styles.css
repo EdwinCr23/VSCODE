@@ -329,14 +329,12 @@ footer{
   color: white;
   padding: 15px 25px 10px;
   border-radius: 12px;
-  text-decoration: none;
-    
+  text-decoration: none;    
 }
 
 
 
 a:hover{
-  
   background-color: #eae3d7;
   color: #54351a;
   font-family: 'zilla_slabbold';
