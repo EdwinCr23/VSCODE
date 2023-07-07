@@ -1,0 +1,404 @@
+:root{
+  --light: #1d1c1963;
+  --primary: rgb(9, 9, 71);
+  --secondary: #54351a;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  background-color: var(--light);
+    
+}
+.banner-principal{
+  background: #54351a;
+  font-size: larger;
+  text-align: center;
+  vertical-align: top;
+  align-items: center;
+   
+}
+
+.main{
+  width: 940px;
+  display: inline-block;
+}
+
+
+
+.principal{
+  width: 25%;
+  height: auto;
+  align-items: center;
+  overflow:hidden;
+}
+
+.principal:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  filter: opacity(0.9);
+  border-radius: 2px;
+}
+
+.logo{
+  width: 25%;
+  height: 25%;
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+.enlaces{
+  padding: 1px;
+  position: relative;
+  font-family: 'zilla_slabbold';
+}
+
+a{
+  border: 1px solid; 
+}
+
+.main{
+  width: 940px;
+  display: inline-block;
+}
+
+.cuerpo{
+  background-color: #eae3d7;
+  padding-top: 15px;
+  
+}
+
+.menu{
+  padding-top: 1 px;
+}
+
+
+.cuerpo h3{
+  font-family: 'zilla_slabbold';
+  padding: 5px 10px 10px;
+  text-align: center;
+    
+}
+#calendar {
+  width: 300px;
+  margin: 0 auto;
+  font-family: 'zilla_slabbold';
+}
+
+
+#calendar table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+#calendar caption {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#calendar th,
+#calendar td {
+  padding: 10px;
+  text-align: center;
+}
+
+#calendar th {
+  background-color:#54351a;
+  font-weight: bold;
+  color:#ffff;
+}
+
+#calendar td {
+  border: 1px solid #101010;
+  transition-duration: 0.9s;
+  -webkit-transition-duration: 0.9s;
+}
+
+dialog{
+  border: none;
+  
+  padding: 2px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+}
+  
+
+
+button{
+  border: none;
+  background-color: #eae3d7;  
+}
+button:hover{
+  background-color:#54351a;
+  color: #FFFF;
+  font-family: 'zilla_slabbold';
+  border-radius: 2rem;
+  text-align: center;
+  
+  transition: 0.6s;
+}
+
+.corporativo{
+  background:#eae3d7;
+  padding: 15px;
+  
+}
+
+h1{
+  font-family: 'zilla_slabbold';
+  font: bold;
+  text-align: center;
+}
+h3{
+  font-family: 'zilla_slabbold';
+}
+p{
+  font-family: 'zilla_slabbold';
+  text-align: center;
+}
+
+.valores{
+  text-align: center;
+  font-family: 'zilla_slabbold';
+}
+
+.valor{
+  text-align: left;
+	display: inline-block;
+  list-style-image: url("Images/Gorrito.png");
+  font-family: 'zilla_slabbold';
+}
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.card{
+  width: 100%;
+  display: block;
+  border: none;
+
+} 
+
+h1 {
+color: var(--secondary);
+text-align: center;
+text-transform: uppercase;
+}
+.card{
+width: 100%;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.card1{
+align-items: center;
+object-position: 50% 50%;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+}
+.card-header{
+height: 200px;
+width: 100%;
+object-position: 50% 50%;
+object-fit: cover;
+}
+
+.card-title{
+font-weight: bold;
+text-align: center;
+margin: 0;
+}  
+
+.card-description{
+flex-grow: 1;
+}
+
+.card-header img{
+border-radius: 10px 10px 0 0;
+width: 100%;
+height: 100%;
+}
+
+.card-body{
+border-radius: 0 0 10px 10px;
+background-color: #fff;
+padding: 20px 15px;
+
+border: 1px solid #ccc;
+}
+
+#sodexo{
+  text-align:justify;
+  font-family: 'zilla_slabbold';
+  background:#eae3d7;
+  border: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
+#materna{
+  border: none;
+  width:unset;
+  padding: 2px;
+  font-family: 'zilla_slabbold';
+  background:#eae3d7;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+ 
+}
+
+#educacion{
+  border: none;
+  width:unset;
+  padding: 2px;
+  font-family: 'zilla_slabbold';
+  background:#eae3d7;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+#salud{
+  border: none;
+  width:unset;
+  padding: 2px;
+  font-family: 'zilla_slabbold';
+  background:#eae3d7;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.dlgbtn{
+  display: block;
+  background-color: var(--secondary);
+  font-family: 'zilla_slabbold';
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.btn{
+  display: block;
+  background-color: var(--secondary);
+  font-family: 'zilla_slabbold';
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+@media(min-width: 480px){
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:  10px;
+}
+.card-body{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+footer{
+  background-color: #eae3d7;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.informacion{
+  text-align: center;
+  font-family: 'zilla_slabbold';
+    
+}
+
+.button1{
+  background-color: #54351a;
+  font-family: 'zilla_slabbold';
+  color: white;
+  padding: 15px 25px 10px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.button{
+  background-color: #54351a;
+  font-family: 'zilla_slabbold';
+  color: white;
+  padding: 15px 25px 10px;
+  border-radius: 12px;
+  text-decoration: none;
+    
+}
+
+
+
+a:hover{
+  
+  background-color: #eae3d7;
+  color: #54351a;
+  font-family: 'zilla_slabbold';
+  text-align: center;
+  border: 1px solid;
+  transition: 0.2s;
+  
+}
+
+.redes{
+  display: block;
+  text-align: center;
+  padding: 21px;
+  border: 0px;  
+}
+
+.redes .redsocial{
+  width: 25px;
+  height: 25px;
+  padding-left: 12px;
+  
+}
+
+
+
+.redsocial:hover{
+  width: 35px;
+  height: 35px;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+form li + li {
+  margin-top: 1em;
+}
+ 
