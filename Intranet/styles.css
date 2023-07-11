@@ -1,0 +1,425 @@
+/**position: fixed; se usa para sobreponer un objeto en la pantalla Permitiendo agregar por ejemplo un navbar
+que siempre sea visible a pesar de hacer scroll en la pantalla para esta opción se puede agregar un width: 100%;
+para que el navbar ocupe el 100% del segmento a lo ancho permitiéndole ocupar el ancho de la pantalla si el 
+segmento está establecido así**/
+
+:root{
+  --light: #1d1c1963;
+  --primary: rgb(9, 9, 71);
+  --secondary: #54351a;
+}
+
+body{
+  font-family: 'zilla_slablight';
+  padding: 0;
+  background-color: var(--light);   
+}
+
+.banner-principal{
+  width: 100%;
+  background: #54351a;
+  font-size: larger;
+  text-align: center;
+  vertical-align: top;
+  align-items: center;
+    
+}
+
+.main{
+  width: 940px;
+  display: inline-block;
+}
+
+.principal{
+  width: 25%;
+  height: auto;
+  align-items: center;
+  overflow:hidden;
+}
+
+.principal:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  filter: opacity(0.9);
+  border-radius: 2px;
+}
+
+.logo{
+  width: 25%;
+  height: 25%;
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+.enlaces{
+  padding: 1px;
+  position: relative;
+  font-family: 'zilla_slablight';
+}
+
+a{
+  border: 1px solid; 
+}
+
+.main{
+  width: 940px;
+  display: inline-block;
+}
+
+.cuerpo{
+  background-color: #eae3d7;
+  padding-top: 15px;
+  
+}
+
+.menu{
+  padding-top: 1 px;
+}
+
+.cuerpo h3{
+  font-family: 'zilla_slablight';
+  padding: 5px 10px 10px;
+  text-align: center;
+    
+}
+
+#calendar {
+  width: 300px;
+  margin: 0 auto;
+  font-family: 'zilla_slablight';
+}
+
+#calendar table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#calendar caption {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#calendar th,
+#calendar td {
+  padding: 10px;
+  text-align: center;
+}
+
+#calendar th {
+  background-color:#54351a;
+  font-weight: bold;
+  color:#ffff;
+}
+
+#calendar td {
+  border: 1px solid #101010;
+  transition-duration: 0.9s;
+  -webkit-transition-duration: 0.9s;
+}
+
+dialog{
+  border: none;
+  padding: 2px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+}
+  
+button{
+  border: none;
+  background-color: #eae3d7;  
+}
+
+button:hover{
+  background-color:#54351a;
+  color: #FFFF;
+  font-family: 'zilla_slablight';
+  border-radius: 2em;
+  text-align: center; 
+  transition: 0.6s;
+}
+
+.sst{
+  padding: 21px;
+  align-items: center;
+}
+
+/**.convivencia-laboral{
+  width: 60%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}**/
+
+.corporativo{
+  background:#eae3d7;
+  padding: 15px;
+}
+
+h1{
+  font-family: 'zilla_slablight';
+  font: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+h3{
+  font-family: 'zilla_slablight';
+}
+p{
+  font-family: 'zilla_slablight';
+  text-align: center;
+}
+
+.valores{
+  text-align: center;
+  font-family: 'zilla_slabbold';
+}
+
+.valor{
+  text-align: left;
+	display: inline-block;
+  list-style-image: url("Images/Gorrito.png");
+  font-family: 'zilla_slablight';
+}
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+}
+
+.card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: none;
+  }
+
+.card{
+  width: 100%;
+  display: block;
+} 
+
+h1 {
+  color: var(--secondary);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.card1{
+  align-items: center;
+  object-position: 50% 50%;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+}
+.card-header{
+  height: 200px;
+  width: 100%;
+  object-position: 50% 50%;
+  object-fit: cover;
+}
+
+.card-header img{
+  border-radius: 10px 10px 0 0;
+  border: 0.5px solid #c59f61;
+  width: 100%;
+  height: 100%;
+}
+
+.card-body{
+  border-radius: 0 0 10px 10px;
+  background-color: #eae3d7;
+  width: 91%;
+  padding: 20px 15px;
+  border: 1px solid #c59f61;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title{
+  font-family: 'zilla_slablight';
+  font-weight: bold;
+  color: #54351a;
+  text-align: center;
+  margin: 0;
+}  
+
+.card-description{
+  flex-grow: 1;
+}
+
+#sodexo{
+  text-align:justify;
+  font-family: 'zilla_slablight';
+  background:#ffff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc; 
+}
+
+#materna{
+  border: 0;
+  width:unset;
+  padding: 2px;
+  font-family: 'zilla_slablight';
+  background:#eae3d7;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+ 
+}
+
+#educacion{
+  border: none;
+  width:unset;
+  padding: 2px;
+  font-family: 'zilla_slablight';
+  background:#eae3d7;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+#salud{
+  border: none;
+  width:unset;
+  padding: 2px;
+  font-family: 'zilla_slablight';
+  background:#eae3d7;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.dlgbtn{
+  display: block;
+  background-color: var(--secondary);
+  font-family: 'zilla_slablight';
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 2em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.btn{
+  display: block;
+  background-color: var(--secondary);
+  font-family: 'zilla_slablight';
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 2em;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+@media(min-width: 480px){
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:  10px;
+}
+
+}
+
+footer{
+  background-color: #eae3d7;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+
+
+.button1{
+  background-color: #54351a;
+  font-family: 'zilla_slablight';
+  color: white;
+  padding: 15px 25px 10px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.button{
+  background-color: #54351a;
+  font-family: 'zilla_slablight';
+  color: white;
+  padding: 15px 25px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+    
+}
+
+
+
+
+a:hover{
+  
+  background-color: #eae3d7;
+  color: #54351a;
+  font-family: 'zilla_slablight';
+  text-align: center;
+  border: 1px solid;
+  transition: 0.2s;
+  border: 1px solid #c59f61;
+  
+}
+
+
+.redes{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+   
+}
+
+h3{
+  color: #54351a;
+  font-family: 'zilla_slablight';
+}
+
+.redsocial{ 
+  text-decoration: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+  padding: 10px 5px 5px 2px;
+}
+
+
+
+.redsocial:hover{
+  text-decoration: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+form li + li {
+  margin-top: 1em;
+}
+ 

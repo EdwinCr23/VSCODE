@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">-->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.lamigueria.com.co/wp-content/themes/lamigueria/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.lamigueria.com.co/wp-content/themes/lamigueria/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.lamigueria.com.co/wp-content/themes/lamigueria/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://www.lamigueria.com.co/wp-content/themes/lamigueria/favicon/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="mask-icon" href="https://www.lamigueria.com.co/wp-content/themes/lamigueria/favicon/safari-pinned-tab.svg" color="#FFFFFF">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+    <title>Corporativo | La Miguería</title>
+</head>
+<body>
+   <header class="banner-principal">
+        <img src="./Images/LOGO PNG.png" alt="LOGO" class="logo">
+        <div class="navbar">
+               <nav class="navbar">
+                    <div class="enlaces">
+                         <a href="./Index.html" class="button1">Inicio</a>
+                         <a href="./conocenos.html" class="button1">Conócenos</a>
+                         <a href="http://192.168.1.150:81/moodle/" class="button1">Escuela</a>
+                         <a href="Beneficios.html" class="button1">Beneficios</a>
+                    </div>
+               </nav>
+          </div>
+   </header>  
+   <main class="cuerpo">      
+          <img src="./Images/IMG_1761.jpg" alt="Empleados" class="principal"><img src="./Images/IMG_1765.jpg" alt="Empleados" class="principal"><img src="./Images/IMG_1803.jpg" alt="Empleados" class="principal"><img src="./Images/IMG_1823.jpg" alt="Empleados" class="principal">
+          <h1>Felicidades a nuestros cumpleañeros</h1>
+          <article>
+               <div id="calendar">
+                         <table>
+                              <caption>Julio 2023</caption>
+                                   <thead>
+                                        <tr>
+                                             <th>Dom</th>
+                                             <th>Lun</th>
+                                             <th>Mar</th>
+                                             <th>Mié</th>
+                                             <th>Jue</th>
+                                             <th>Vie</th>
+                                             <th>Sáb</th>
+                                        </tr>
+                                   </thead>
+                                   <tbody>
+                                        <tr>
+                                             <td>25</td>
+                                             <td>26</td>
+                                             <td>27</td>
+                                             <td>28</td>
+                                             <td>29</td>
+                                             <td>30</td>
+                                             <td><button onclick="vacio()">1</button>
+                                                  <dialog id="vac">
+                                                       Ups! Nadie cumple años este día!<br>
+                                                       <button onclick="aceptar()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                             <td><button onclick="vacio()">2</button>
+                                                       <dialog id="vac">
+                                                            Ups! Nadie cumple años este día!<br>
+                                                            <button onclick="aceptar()">Aceptar</button>
+                                                       </dialog>
+                                             </td>
+                                             <td><button onclick="cumple1()">3</button>
+                                                       <dialog id="msg1">
+                                                            Este día Cumple:<br> CARMEN MARCELA BENÍTEZ TORRES de ESTADIO<br>
+                                                            <button onclick="cerrar1()">Aceptar</button>
+                                                       </dialog>
+                                             </td>
+                                             <td><button onclick="cumple2()">4</button>
+                                                  <dialog id="msg2">
+                                                       Este día Cumple:<br> JERSON CARVAJAL ROBLEDO de OVIEDO<br>
+                                                       <button onclick="cerrar2()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="vacio()">5</button>
+                                                  <dialog id="vac">
+                                                       Ups! Nadie cumple años este día!<br>
+                                                       <button onclick="aceptar()">Aceptar</button>                                   
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple()">6</button>
+                                                  <dialog id="msg">
+                                                       FELIPE PELÁEZ VALDERRAMA de ADMINISTRACIÓN<br>
+                                                       <button onclick="cerrar()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="vacio()">7</button>
+                                                  <dialog id="vac">
+                                                       Ups! Nadie cumple años este día!<br>
+                                                       <button onclick="vacio()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple3()">8</button>
+                                                  <dialog id="msg3">
+                                                  Este día cumple: <br> IRMA ELENA RICO GARCÍA de MAYORCA ETAPA 1<br>
+                                                       <button onclick="cerrar3()">Aceptar</button>
+                                                  </dialog>
+                                             </td> 
+                                        </tr>
+                                        <tr> 
+                                             <td><button onclick="cumple4()">9</button>
+                                                  <dialog id="msg4">
+                                                       Este día Cumple:<br>MARIA SILIA ENID  VASQUEZ MANCO  de SERVICIOS GENERALES<br>
+                                                       LESLY ARBELAEZ GIRALDO de FABRICATO<br>
+                                                       <button onclick="cerrar4()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="vacio()">10</button>
+                                                  <dialog id="vac">
+                                                       Ups! Nadie cumple años este día!<br>
+                                                       <button onclick="vacio()">Aceptar</button>
+                                                  </dialog>
+                                             </td>                            
+                                             <td><button onclick="cumple5()">11</button>
+                                                  <dialog id="msg5">
+                                                       Este día Cumple:<br>FAUSTO ALIRIO HENAO ATEHORTUA de PANADERÍA<br>
+                                                  CARLOS DANIEL LARREA MISAS de PANADERÍA<br>    
+                                                       <button onclick="cerrar5()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple6()">12</button>
+                                                  <dialog id="msg6">
+                                                       Este día Cumple:<br>JUAN GUILLERMO PELAEZ MEJIA de ADMINISTRACIÓN<br>
+                                                       <button onclick="cerrar6()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple7()">13</button>
+                                                  <dialog id="msg7">
+                                                       Este día cumple: <br>ARIANGELA ELIMAR NUNEZ CASTRO de MAYORCA ETAPA 2<br>
+                                                       <button onclick="cerrar7()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple8()">14</button>
+                                                  <dialog id="msg8">
+                                                       Este día Cumple:<br>ANA SULEIDA CALVO GOMEZ de REPOSTERÍA<br>
+                                                       STIVEN CADAVID RAMIREZ de CIUDAD DEL RÍO<br>VERÓNICA PELÁEZ FLOREZ de OLAYA<br>
+                                                       <button onclick="cerrar8()">Aceptar</button>
+                                                  </dialog>
+                                             <td><button onclick="vacio()">15</button>
+                                                  <dialog id="vac">
+                                                       Ups! Nadie cumple años este día!<br>
+                                                       <button onclick="vacio()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                             <td><button onclick="cumple9()">16</button>
+                                                  <dialog id="msg9">
+                                                  Este día Cumple: <br>LEISY ALEJANDRA CASTANO de OVIEDO<br>
+                                                       <button onclick="cerrar9()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple10()">17</button>
+                                                  <dialog id="msg10">
+                                                       Este día Cumple:<br>PAOLA ANDREA TOBÓN AGUDELO de REPOSTERÍA<br>
+                                                       YULIANA MANCO USUGA de LA CENTRAL<br>DEISY JOHANA SOTO USUGA de CALL CENTER<br>
+                                                       <button onclick="cerrar10()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple11()">18</button>
+                                                  <dialog id="msg11">
+                                                       Este día Cumple:<br>YHESENIA MARIN SUESCUN -- PRACTICANTE<br>KAREN ESTEFAN SEPÚLVEDA OSORIO de MOLINOS<br>
+                                                       <button onclick="cerrar11()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="vacio()">19</button>
+                                                  <dialog id="vac">
+                                                       Ups! Nadie cumple años este día!<br>
+                                                       <button onclick="vacio()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple12()">20</button>
+                                                  <dialog id="msg12">
+                                                       Este día Cumple:<br>NORA MILENA POSADA TRUJILLO de CIUDAD DEL RÍO<br>
+                                                       MARYORY DEL SOCORRO ARANGO GIRALDO de LOGÍSTICA<br>ERIKA MARÍA GONZÁLES ARÉVALO de MOLINOS<br>
+                                                       <button onclick="cerrar12()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple13()">21</button>
+                                                  <dialog id="msg13">
+                                                       Este día Cumple:<br>ALEXANDER DE JESÚS AGUILAR BRICEÑO de BODEGA<br>
+                                                       PALOMA TATIANA OSSA PUERTA de LAURELES<br>SANDRA MILENA GÓMEZ OSORIO de LOGÍSTICA<br>VALENTINA RAMÍREZ ARBOLEDA -- PRACTICANTE<br>
+                                                       <button onclick="cerrar13()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="vacio()">22</button>
+                                                  <dialog id="vac">
+                                                       Ups! Nadie cumple años este día!<br>
+                                                       <button onclick="vacio()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                        </tr>
+                                        <tr>
+                                             <td><button onclick="vacio()">23</button>
+                                                  <dialog id="vac">
+                                                       Ups! Nadie cumple años este día!<br>
+                                                       <button onclick="vacio()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple14()">24</button>
+                                                  <dialog id="msg14">
+                                                       Este día Cumple:<br>MARIA JOSÉ ALZATE GALVEZ -- PRACTICANTE<br>
+                                                       ANDREA CASTRILLON ECHAVARRÍA de LAURELES<br>
+                                                       <button onclick="cerrar14()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple15()">25</button>
+                                                  <dialog id="msg15">
+                                                       Este día Cumple:<br>ELVIS GREGORIO GALLARDO MEDINA de PREALISTAMIENTO<br>
+                                                       JUAN CARLOS MARIN MORENO de PRODUCCIÓN<br>
+                                                       <button onclick="cerrar15()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="vacio()">26</button>
+                                                  <dialog id="vac">
+                                                       Ups! Nadie cumple años este día!<br>
+                                                       <button onclick="vacio()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple16()">27</button>
+                                                  <dialog id="msg16">
+                                                       Este día Cumple:<br>MARIANA HERRERA RIVAS --PRACTICANTE<br>
+                                                       ISABEL CRISTINA PIEDRAHITA LÓPEZ de LAURELES<br>
+                                                       <button onclick="cerrar16()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple17()">28</button>
+                                                  <dialog id="msg17">
+                                                       Este día Cumple:<br>ROGER LEONARDO SAYAGO MORA de LA CENTRAL<br>
+                                                       <button onclick="cerrar17()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple18()">29</button>
+                                                  <dialog id="msg18">
+                                                       Este día Cumple:<br>PATRICIA LÓPEZ TUBERQUIA de PANADERÍA<br>
+                                                       <button onclick="cerrar18()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                        </tr>
+                                        <tr>           
+                                             <td><button onclick="cumple19()">30</button>
+                                                  <dialog id="msg19">
+                                                       Este día Cumple:<br>LINA MARCELA CAICEDO CASTRO de LOGISTICA<br>
+                                                       LEIDY JOHANA YUSTY DUQUE de LA CENTRAL<br>
+                                                       <button onclick="cerrar19()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td><button onclick="cumple20()">31</button>
+                                                  <dialog id="msg20">
+                                                       Este día Cumple:<br>CATALINA GIRALDO VÉLEZ de CALIDAD<br>
+                                                       <button onclick="cerrar20()">Aceptar</button>
+                                                  </dialog>
+                                             </td>
+                                             <td>1</td>
+                                             <td>2</td>
+                                             <td>3</td>
+                                             <td>4</td>
+                                             <td>5</td>
+                                        </tr>                            
+                                   </tbody>
+                         </table>
+                    </div>
+                    <!--<div class="sst">
+                         <img src="./Images/sst.png" alt="sst" class="convivencia-laboral">
+                    </div>-->
+          </article>
+   </main>   
+     <footer class="piePagina">              
+          <div class="redes">
+               <h3>Síguenos en nuestras redes sociales</h3>
+               <a class="redsocial" href="https://www.facebook.com/Migueria/?locale=es_LA">
+                    <img class="redsocial" src="./Images/facebook.png" alt="Facebook">
+               </a>
+               <a class="redsocial" href="https://www.instagram.com/lamigueria/">
+                    <img class="redsocial" src="./Images/instagram.png" alt="instagram">
+               </a>
+          </div>
+     </footer>
+     <script src="enviar.js"></script>
+</body>
+</html>
