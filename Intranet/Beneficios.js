@@ -10,13 +10,13 @@ function bonocerrar(){
     sodexo.close();
 }
 
-function imprimir(){
-    let mensaje = document.getElementById("mensaje");
-    mensaje.showModal();
+function tiquet(){
+    let mensaje = document.getElementById("tiquet");
+    mensaje.show();
 }
 
-function cerrar(){
-    let mensaje = document.getElementById("mensaje");
+function tiquetcerrar(){
+    let mensaje = document.getElementById("tiquet");
     mensaje.close();
 }
 
@@ -31,6 +31,82 @@ function marternocerrar(){
     mensaje.close();
 }
 
+
+function salud(){
+    let mensaje = document.getElementById("salud");
+    mensaje.show();
+}
+
+function saludcerrar(){
+    let mensaje = document.getElementById("salud");
+    mensaje.close();
+}
+
+function cumple(){
+    let mensaje = document.getElementById("cumple");
+    mensaje.show();
+}
+
+function cumplecerrar(){
+    let mensaje = document.getElementById("cumple");
+    mensaje.close();
+}
+
+function fechacerrar(){
+    let mensaje = document.getElementById("fecha");
+    mensaje.close();
+}
+
+function fecha(){
+    let mensaje = document.getElementById("fecha");
+    mensaje.show();
+}
+
+function bodacerrar(){
+    let mensaje = document.getElementById("boda");
+    mensaje.close();
+}
+
+function boda(){
+    let mensaje = document.getElementById("boda");
+    mensaje.show();
+}
+
+function bodacerrar(){
+    let mensaje = document.getElementById("boda");
+    mensaje.close();
+}
+
+function escolar(){
+    let mensaje = document.getElementById("escolar");
+    mensaje.show();
+}
+
+function escolarcerrar(){
+    let mensaje = document.getElementById("escolar");
+    mensaje.close();
+}
+
+function antiguedad(){
+    let mensaje = document.getElementById("antiguedad");
+    mensaje.show();
+}
+
+function antiguedadcerrar(){
+    let mensaje = document.getElementById("antiguedad");
+    mensaje.close();
+}
+
+function escuela(){
+    let mensaje = document.getElementById("escuela");
+    mensaje.show();
+}
+
+function formacion(){
+    let mensaje = document.getElementById("escuela");
+    mensaje.close();
+}
+
 function plancarrera(){
     let mensaje = document.getElementById("carrera");
     mensaje.show();
@@ -41,12 +117,12 @@ function carrera(){
     mensaje.close();
 }
 
-function salud(){
-    let mensaje = document.getElementById("salud");
+function credito(){
+    let mensaje = document.getElementById("credito");
     mensaje.show();
 }
 
-function saludcerrar(){
-    let mensaje = document.getElementById("salud");
+function creditocerrar(){
+    let mensaje = document.getElementById("credito");
     mensaje.close();
 }

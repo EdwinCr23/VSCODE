@@ -155,7 +155,7 @@ button:hover{
   left: 50%;
 }**/
 
-/**.gif img {
+/**.gif .rotate {
   animation-name: girar;
   animation-duration: 8s;
   animation-timing-function: linear;
@@ -172,20 +172,14 @@ button:hover{
   }
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-img {
-  align-items: center;
-  vertical-align: middle;
-  border-style: none;
-}
-
-*, ::after, ::before {
-  box-sizing: border-box;
+.rotate{
+  padding: 21px;
+  width: 20%;
+  height: 20%;
+  position: relative;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
 }**/
 
 .corporativo{
@@ -293,55 +287,22 @@ h1 {
   flex-grow: 1;
 }
 
-#sodexo{
-  text-align:justify;
+dialog{
+  border: none;
+  border-radius: 2em;
+  width:unset;
+  padding: 10px;
   font-family: 'zilla_slablight';
-  background:#ffff;
+  background: #FFFF;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid #ccc; 
 }
 
-#materna{
-  border: 0;
-  width:unset;
-  padding: 2px;
-  font-family: 'zilla_slablight';
-  background:#eae3d7;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
- 
-}
-
-#educacion{
-  border: none;
-  width:unset;
-  padding: 2px;
-  font-family: 'zilla_slablight';
-  background:#eae3d7;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-}
-
-#salud{
-  border: none;
-  width:unset;
-  padding: 2px;
-  font-family: 'zilla_slablight';
-  background:#eae3d7;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-}
 .dlgbtn{
   display: block;
+  width: 30%;
   background-color: var(--secondary);
   font-family: 'zilla_slablight';
   padding: 5px;
@@ -349,7 +310,10 @@ h1 {
   color: #fff;
   border-radius: 2em;
   text-align: center;
-  margin-top: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(100%, -10%);
+  margin-top: 10px; 
 }
 
 

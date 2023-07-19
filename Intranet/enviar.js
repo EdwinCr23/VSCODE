@@ -1,6 +1,4 @@
-function enviar(){
-    alert('Su mensaje ha sido enviado, ¡Gracias por escribirnos! ')
-}
+
 
 function cumple(){
     let dlg = document.getElementById("msg");

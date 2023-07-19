@@ -1,4 +1,6 @@
+
 p{
+    font-family: 'zilla_slablight';
     animation-name: text;
     animation-duration: 3s;
     animation-direction: alternate;
@@ -22,3 +24,27 @@ p{
         width: 300%;
     }
 }
+
+.gif img {
+    animation-name: girar;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes girar{
+    from{
+      transform: rotate(0deg);
+  
+    }
+    to{
+      transform: rotate(360deg);
+    }
+}
+
+
+    
+a:active {
+    color: red;
+  }
+  
