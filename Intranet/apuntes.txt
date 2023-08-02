@@ -1,4 +1,0 @@
-- position: fixed; se usa para sobreponer un objeto en la pantalla Permitiendo agregar por ejemplo un navbar
-que siempre sea visible a pesar de hacer scroll en la pantalla para esta opción se puede agregar un width: 100%;
-para que el navbar ocupe el 100% del segmento a lo ancho permitiéndole ocupar el ancho de la pantalla si el 
-segmento está establecido así
