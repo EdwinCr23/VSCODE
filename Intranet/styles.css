@@ -1,0 +1,440 @@
+@font-face{
+  font-family: Archer-Book-Pro;
+  src: url(./Tipografía/Archer-Book-Pro.otf)
+}
+
+:root{
+  --light: #1d1c1963;
+  --primary: rgb(9, 9, 71);
+  --secondary: #54351a;
+}
+
+body{
+  padding: 0;
+  background-color: var(--light);   
+}
+
+.banner-principal{
+  width: 100%;
+  background: #54351a;
+  font-size: larger;
+  text-align: center;
+  vertical-align: top;
+  align-items: center;
+    
+}
+
+.button1{
+  background-color: #54351a;
+  font-family: 'Archer-Book-Pro';
+  text-transform: uppercase;
+  color: white;
+  padding: 15px 25px 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 3px 7px 14px #54351a;
+}
+
+.main{
+  width: 940px;
+  display: inline-block;
+}
+h1{
+  color: var(--secondary);
+  text-align: center;
+  text-transform: uppercase;
+  font-family:'Hagin Caps Thin';
+ font: bold;
+ text-align: center;
+ padding-top: 20px;
+ padding-bottom: 5px;
+}
+
+h3{
+  color: #54351a;
+  font-family: 'Hagin Caps Thin';
+  padding: 5px 10px 10px;
+  text-align: center;
+}
+
+.principal{
+  width: 25%;
+  height: auto;
+  align-items: center;
+  overflow:hidden;
+}
+
+.principal:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  filter: opacity(0.9);
+  border-radius: 2px;
+  box-shadow: 3px 7px 14px #000;
+}
+
+.logo{
+  width: 25%;
+  height: 25%;
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+.enlaces{
+  padding: 1px;
+  position: relative;
+
+}
+
+a{
+  border: 1px solid; 
+}
+
+.main{
+  width: 940px;
+  display: inline-block;
+}
+
+.cuerpo{
+  background-color: #eae3d7;
+  padding-top: 15px;
+  
+}
+p{
+    font-family: 'Archer-Book-Pro';
+  /**font-family: 'Shadows Into Light', cursive;**/
+  text-align: center;
+  font-size: 22.5px;
+}
+
+.menu{
+  padding-top: 1 px;
+}
+
+
+
+#calendar {
+  width: 300px;
+  margin: 0 auto;
+  font-family: 'Hagin Caps Thin';
+}
+
+#calendar table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#calendar caption {
+  color: #54351a;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#calendar th,
+#calendar td {
+  padding: 10px;
+  text-align: center;
+}
+
+#calendar th {
+  background-color:#54351a;
+  font-weight: bold;
+  color:#ffff;
+}
+
+#calendar td {
+  border: 1px solid #101010;
+  transition-duration: 0.9s;
+  -webkit-transition-duration: 0.9s;
+}
+
+.cal-botom{
+  border: 1px solid #101010;
+  border-radius: 3px;
+  width: 70%;
+ 
+}
+  
+button{
+  border: none;
+  font: bolder;
+  background-color: #eae3d7;
+  font-family: 'Hagin Caps Thin';  
+}
+
+button:hover{
+  background-color:#54351a;
+  color: #FFFF;
+  width: 70%;
+   /**font-family: 'Archer-BookItal-Pro';**/
+  border-radius: 0.9em;
+  text-align: center; 
+  transition: 0.5s;
+}
+.button{
+  background-color: #54351a;
+  font-family: 'Hagin Caps Thin';
+  color: white;
+  padding: 15px 25px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+    
+}
+
+.sst{
+  padding: 21px;
+  align-items: center;
+}
+
+/**.convivencia-laboral{
+  width: 60%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}**/
+
+/**.gif .rotate {
+  animation-name: girar;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes girar{
+  from{
+    transform: rotate(0deg);
+
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.rotate{
+  padding: 21px;
+  width: 20%;
+  height: 20%;
+  position: relative;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}**/
+
+.corporativo{
+  background:#eae3d7;
+  padding: 15px;
+}
+
+.valores{
+  text-align: center;
+  /**font-family: 'Archer-BookItal-Pro';**/
+}
+
+.valor{
+  text-align: left;
+	display: inline-block;
+  list-style-image: url("Images/Gorrito.png");
+  font-family: 'Archer-book-Pro';
+  font-size: 20px;
+}
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+}
+
+.card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: none;
+  box-shadow: 3px 7px 14px #54351a;
+}
+  
+
+.card{
+  width: 100%;
+  display: block;
+} 
+
+
+.card1{
+  align-items: center;
+  object-position: 50% 50%;
+}
+
+.contenedor{
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+}
+.card-header{
+  height: 200px;
+  width: 100%;
+  object-position: 50% 50%;
+  object-fit: cover;
+}
+
+.card-header img{
+  border-radius: 10px 10px 0 0;
+  border: 0.5px solid #c59f61;
+  width: 100%;
+  height: 100%;
+}
+
+.card-body{
+  border-radius: 0 0 10px 10px;
+  background-color: #eae3d7;
+  width: 91%;
+  padding: 20px 15px;
+  border: 1px solid #c59f61;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title{
+   font-family: 'Hagin Caps Thin';
+  font-weight: bold;
+  color: #54351a;
+  text-align: center;
+  margin: 0;
+}  
+
+.card-description{
+  flex-grow: 1;
+}
+
+dialog{
+  border: none;
+  border-radius: 2em;
+  width:unset;
+  padding: 10px;
+  font-family: 'Archer-Book-Pro';
+  background:#eae3d7;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 7px 14px #54351a;
+}
+
+.dlgbtn{
+  display: block;
+  width: 30%;
+  background-color: var(--secondary);
+  font-family: 'Archer-Book-Pro';
+  /**text-transform: uppercase;**/
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 2em;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(100%, -10%);
+  margin-top: 10px; 
+}
+
+
+.btn{
+  display: block;
+  background-color: var(--secondary);
+  font-family: 'Archer-Book-Pro';
+  /**text-transform: uppercase;**/
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 2em;
+  text-align: center;
+  margin-top: 10px;
+ 
+}
+
+.btn:hover{
+  background-color: #c59f61;
+  color: #54351a;
+  /**font-family: 'Archer-BookItal-Pro';**/
+  text-align: center;
+  border: 1px solid;
+  transition: 0.2s;
+  border: 1px solid #eae3d7;
+}
+
+@media(min-width: 480px){
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:  10px;
+}
+
+}
+
+footer{
+  background-color: #eae3d7;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.button1:hover{
+  background-color: #c59f61;
+  color: #54351a;
+  /**font-family: 'Archer-BookItal-Pro';**/
+  text-align: center;
+  border: 1px solid;
+  transition: 0.2s;
+  border: 1px solid #eae3d7;
+}
+
+a:hover{
+  
+  background-color: #eae3d7;
+  color: #54351a;
+  /**font-family: 'Archer-BookItal-Pro';**/
+  text-align: center;
+  border: 1px solid;
+  transition: 0.2s;
+  border: 1px solid #c59f61;
+  
+}
+
+
+.redes{
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+   
+}
+
+
+
+.redsocial{ 
+  text-decoration: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+  padding: 10px 5px 5px 2px;
+}
+
+
+
+.redsocial:hover{
+  text-decoration: none;
+  border: none;
+  width: 39px;
+  height: 39px;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+form li + li {
+  margin-top: 1em;
+}
+ 
