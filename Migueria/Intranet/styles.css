@@ -15,15 +15,17 @@ body{
 }
 
 .login{
-  background-image: url(../Intranet/Images/fondo.jpg);
+  background-image: url(./Images/Fondo.jpg);
 }
 
 .form-login{
   background: #eae3d7;
   margin: auto;
+  margin-top: 20px;
   width: 400px;
-  height: 340px;
+  height: 400px;
   border: 1px solid #000;
+  border-radius: 2em;
   padding: 15px 20px 15px 40px;
   box-shadow: 5px 10px 25px #000;
 }
@@ -32,6 +34,22 @@ body{
   text-align: center;
   margin-top: 1px #000;
   padding: 40px;
+}
+
+.form-login img{
+  margin: auto;
+  background-color: #54351a;
+  width: 165px;
+  height: 185px;
+  top: 50%;
+  left: 50%;
+  transform: translate(65%, -5%);
+}
+
+.logo-form{
+  background: #54351a;
+  height: 190px;
+  margin: auto;
 }
 
 .controls{

@@ -1,18 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">-->
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.lamigueria.com.co/wp-content/themes/lamigueria/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.lamigueria.com.co/wp-content/themes/lamigueria/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.lamigueria.com.co/wp-content/themes/lamigueria/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://www.lamigueria.com.co/wp-content/themes/lamigueria/favicon/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="mask-icon" href="https://www.lamigueria.com.co/wp-content/themes/lamigueria/favicon/safari-pinned-tab.svg" color="#FFFFFF">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <title>Iniciar Sesión</title>
+    <meta name="description" content="Panadería, pastelería y repostería que La Miguería prepara con amor día a día para el deleite de todos." />
+     <link rel="canonical" href="https://www.lamigueria.com.co/" />
+     <meta property="og:locale" content="es_ES" />
+     <meta property="og:type" content="website" />
+     <meta property="og:title" content="Inicio | La Miguería" />
+     <meta property="og:description" content="Panadería, pastelería y repostería que La Miguería prepara con amor día a día para el deleite de todos." />
+     <meta property="og:url" content="https://www.lamigueria.com.co/" />
+     <meta property="og:site_name" content="La Miguería" />
+     <meta property="article:publisher" content="https://www.facebook.com/Migueria" />
+     <meta property="article:modified_time" content="2023-06-21T17:13:05+00:00" />
+     <meta property="og:image" content="https://www.lamigueria.com.co/wp-content/uploads/2022/08/HOME-1.jpg" />
+     <meta property="og:image:width" content="1920" />
+     <meta property="og:image:height" content="1080" />
+     <meta property="og:image:type" content="image/jpeg" />
+     <meta name="twitter:card" content="summary_large_image" />
+     <meta name="twitter:label1" content="Tiempo de lectura" />
+     <meta name="twitter:data1" content="1 minuto" />
 </head>
 <body class="login">
     <div class="form-login">
-        <p>Inicia Sesión</p>
-        <input type="text" class="controls" placeholder="Usuario"><br>
-        <input type="password" class="controls" placeholder="Contraseña">
-        <a href="./Index.html" class="dlgbtn">Ingresar</a>
-        <a href="#" class="forget">¿Olvidaste tu contraseña?</a>
+        <div class="logo-form">
+            <img src="./Images/amamos lo que hacemos.png" alt="Migueria" class="Mig-logo">
+        </div>
+        
+        <form id="login">
+            <!--<label for="username">Nombre de usuario:</label>-->
+            <input type="text" id="username" class="controls" placeholder="Usuario" required>
+            <br>
+            <!--<label for="password">Contraseña:</label>-->
+            <input type="password" id="password" class="controls" placeholder="Contraseña" required>
+            <br>
+            <button type="submit">Ingresar</button>
+        </form>
+        
     </div>
+    <script src="./login-boton.js"></script>
 </body>
 </html>
