@@ -14,6 +14,33 @@ body{
   background-color: var(--light);   
 }
 
+.login{
+  background-image: url(../Intranet/Images/fondo.jpg);
+}
+
+.form-login{
+  background: #eae3d7;
+  margin: auto;
+  width: 400px;
+  height: 340px;
+  border: 1px solid #000;
+  padding: 15px 20px 15px 40px;
+  box-shadow: 5px 10px 25px #000;
+}
+
+.form-login p{
+  text-align: center;
+  margin-top: 1px #000;
+  padding: 40px;
+}
+
+.controls{
+  margin: 12px;
+  width: 90%;
+  padding: 10px;
+}
+
+
 .banner-principal{
   width: 100%;
   background: #54351a;
@@ -32,22 +59,23 @@ body{
   padding: 15px 25px 10px;
   border-radius: 12px;
   text-decoration: none;
-  box-shadow: 3px 7px 14px #54351a;
+  /**box-shadow: 3px 7px 14px #54351a;**/
 }
 
 .main{
   width: 940px;
   display: inline-block;
 }
+
 h1{
   color: var(--secondary);
   text-align: center;
   text-transform: uppercase;
   font-family:'Hagin Caps Thin';
- font: bold;
- text-align: center;
- padding-top: 20px;
- padding-bottom: 5px;
+  font: bold;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 h3{
@@ -85,7 +113,7 @@ h3{
 }
 
 a{
-  border: 1px solid; 
+  border: 1px solid #ffff; 
 }
 
 .main{
@@ -99,7 +127,7 @@ a{
   
 }
 p{
-    font-family: 'Archer-Book-Pro';
+  font-family: 'Archer-Book-Pro';
   /**font-family: 'Shadows Into Light', cursive;**/
   text-align: center;
   font-size: 22.5px;
@@ -148,9 +176,11 @@ p{
 }
 
 .cal-botom{
+  /**color: #eae3d7;
+  background-color: #54351a;**/
   border: 1px solid #101010;
   border-radius: 3px;
-  width: 70%;
+  width: 90%;
  
 }
   
@@ -164,12 +194,14 @@ button{
 button:hover{
   background-color:#54351a;
   color: #FFFF;
-  width: 70%;
+  width: 90%;
    /**font-family: 'Archer-BookItal-Pro';**/
-  border-radius: 0.9em;
+  border-radius: 3px;
   text-align: center; 
   transition: 0.5s;
+  box-shadow: 2px 6px 15px #000;
 }
+
 .button{
   background-color: #54351a;
   font-family: 'Hagin Caps Thin';
@@ -184,40 +216,6 @@ button:hover{
   padding: 21px;
   align-items: center;
 }
-
-/**.convivencia-laboral{
-  width: 60%;
-  position: relative;
-  top: 50%;
-  left: 50%;
-}**/
-
-/**.gif .rotate {
-  animation-name: girar;
-  animation-duration: 8s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes girar{
-  from{
-    transform: rotate(0deg);
-
-  }
-  to{
-    transform: rotate(360deg);
-  }
-}
-
-.rotate{
-  padding: 21px;
-  width: 20%;
-  height: 20%;
-  position: relative;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-}**/
 
 .corporativo{
   background:#eae3d7;
@@ -243,11 +241,12 @@ button:hover{
 }
 
 .card{
+  border: none;
   width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
-  border: none;
+
   box-shadow: 3px 7px 14px #54351a;
 }
   
@@ -308,8 +307,8 @@ button:hover{
 }
 
 dialog{
-  border: none;
   border-radius: 2em;
+  border: none;
   width:unset;
   padding: 10px;
   font-family: 'Archer-Book-Pro';
@@ -354,13 +353,14 @@ dialog{
 }
 
 .btn:hover{
-  background-color: #c59f61;
+  background-color: #eae3d7;
   color: #54351a;
   /**font-family: 'Archer-BookItal-Pro';**/
   text-align: center;
   border: 1px solid;
   transition: 0.2s;
   border: 1px solid #eae3d7;
+  box-shadow: 2px 6px 15px #000;
 }
 
 @media(min-width: 480px){
@@ -387,6 +387,7 @@ footer{
   border: 1px solid;
   transition: 0.2s;
   border: 1px solid #eae3d7;
+  box-shadow: 2px 6px 15px #000;
 }
 
 a:hover{
@@ -397,8 +398,8 @@ a:hover{
   text-align: center;
   border: 1px solid;
   transition: 0.2s;
-  border: 1px solid #c59f61;
-  
+  border: 1px solid #eae3d7;
+  box-shadow: 2px 6px 15px #000;
 }
 
 
