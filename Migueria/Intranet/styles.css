@@ -14,6 +14,8 @@ body{
   background-color: var(--light);   
 }
 
+
+
 .login{
   background-image: url(./Images/Fondo.jpg);
   background-size: 1280px 720px;
@@ -66,9 +68,7 @@ body{
   font-family: 'Archer-Book-Pro';
 }
 
-th{
-  font-family:'Hagin Caps Thin';
-}
+
 
 .boton{
   background-color: #54351a;
