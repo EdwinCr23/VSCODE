@@ -1,4 +1,4 @@
-const users ={
+/*const users ={
     "ecardenas" : "Lm54321@*",
     "rduran" : "Lm54321@*",
     "bramirez" : "Lm54321@*"
@@ -19,4 +19,27 @@ function loginPage(event) {
 }
 loginPage();
 
-document.getElementById('login').addEventListener('submit', loginPage);
+document.getElementById('login').addEventListener('submit', loginPage);*/
+
+function Login(){
+    var done = 0;
+    var usuario = document.login.usuario.value;
+    var password = document.login.password.value;
+    if(usuario == 'ecardenas' || 'bramirez' && password == 'Lm54321@'){
+        window.location="Index.html";
+    }else{
+        alert('Usuario o Clave Incorrectos');
+        
+    }
+    /**if(usuario == 'bramirez' && password == 'Lm54321@*'){
+        window.location="Index.html"
+    }else{
+        alert('Usuario o Clave Incorrectos')
+    }
+
+    if(usuario == "" && password == ""){
+        alert('Todos los campos son obligatorios')
+    }**/
+}
+
+document.oncontextmenu = function(){return false}

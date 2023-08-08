@@ -44,14 +44,23 @@
             <img src="./Images/LOGO PNG.png" alt="Migueria" class="Mig-logo">
         </div>
         
-        <form id="login">
-            <!--<label for="username">Nombre de usuario:</label>-->
+        <form name="login">           
+            <p>Usuario</p>
+            <input name="usuario" type="text" class="Input" value="" placeholder="Usuario" required></td></span>
+            <p>Contraseña</p>
+            <input name="password" type="password" class="Input" value="" placeholder="Contraseña" required /><br>
+            <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/> 
+            <input type="reset" name="Borrar" id="Borrar" value="Reset" class="boton" />
+                   
+                
+            
+            <!--<label for="username">Nombre de usuario:</label>
             <input type="text" id="username" class="controls" placeholder="Usuario" required>
             <br>
-            <!--<label for="password">Contraseña:</label>-->
+            <label for="password">Contraseña:</label>
             <input type="password" id="password" class="controls" placeholder="Contraseña" required>
             <br>
-            <button type="submit">Ingresar</button>
+            <button type="submit">Ingresar</button>-->
         </form>
         
     </div>

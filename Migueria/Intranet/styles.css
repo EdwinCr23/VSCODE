@@ -16,7 +16,9 @@ body{
 
 .login{
   background-image: url(./Images/Fondo.jpg);
+  background-size: 1280px 720px;
 }
+
 
 .form-login{
   background: #eae3d7;
@@ -33,33 +35,51 @@ body{
 .form-login p{
   text-align: center;
   margin-top: 1px #000;
-  padding: 40px;
+  padding: 10px;
 }
 
 .form-login img{
   margin: auto;
-  background-color: #54351a;
+  /*background-color: #54351a;*/
   margin-top: 12px;
-  width: 165px;
-  height: 155px;
+  width: 125px;
+  height: 115px;
   top: 50%;
   left: 50%;
-  transform: translate(65%, -5%);
+  transform: translate(25%, -5%);
 }
 
 .logo-form{
-  width: 100%;
+  border-radius: 55rex;
+  width: 45%;
   background: #54351a;
-  height: 190px;
   margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -5%);
 }
 
-.controls{
+.Input{
   margin: 12px;
-  width: 90%;
-  padding: 10px;
+  width: 60%;
+  padding: 5px;
+  font-family: 'Archer-Book-Pro';
 }
 
+th{
+  font-family:'Hagin Caps Thin';
+}
+
+.boton{
+  background-color: #54351a;
+  font-family: 'Archer-Book-Pro';
+  text-transform: uppercase;
+  color: white;
+  padding: 15px 25px 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  align-items: center;
+}
 
 .banner-principal{
   width: 100%;
@@ -71,6 +91,11 @@ body{
     
 }
 
+.banner-principal .logout{
+  vertical-align: top;
+  align-items: end;
+}
+  
 .button1{
   background-color: #54351a;
   font-family: 'Archer-Book-Pro';
