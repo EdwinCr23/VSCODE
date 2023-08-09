@@ -41,20 +41,20 @@ document.getElementById('login').addEventListener('submit', loginPage);*/
         alert('Todos los campos son obligatorios')
     }**/
 
-    function Login(){
-        var done = 0;
-        var usuario = document.login.usuario.value;
-        var password = document.login.password.value;
-       if(usuario == 'ecardenas'){
-        if(password == 'Lm54321@*'){
-            window.location = "Index.html" 
-        }else{
-            alert('Usuario o clave incorrecta')
-        }
-       }else{
-        if(usuario == "" || password == ""){
-            alert('Todos los campos son obligatorios')
-        }
-       }
+function Login(){
+    var done = 0;
+    var usuario = document.login.usuario.value;
+    var password = document.login.password.value;
+    if(usuario =='ecardenas' || 'bramirez'){
+    if(password == 'Lm54321@*'){
+        window.location = "Index.html" 
+    }else{
+        alert('Usuario o clave incorrecta')
     }
+    }else{
+    if(usuario == "" || password == ""){
+        alert('Todos los campos son obligatorios')
+    }
+    }
+}
 document.oncontextmenu = function(){return false}

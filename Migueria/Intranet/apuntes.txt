@@ -14,5 +14,5 @@ Algunas de las imágenes usadas en la sección de Beneficios son de uso didácti
 
 En la sección de Conócenos está en estudio la misión, la visión y los valores para establecer que son los correctos y establecidos por la compañía
 
-La función que permite el Inicio de sesión al momento sólo está configurada con el ususario 'ecardenas' con contraseña 'Lm54321@*' para realizar pruebas 
+La función que permite el Inicio de sesión al momento sólo está configurada con los ususario 'ecardenas' y 'bramirez' con contraseña 'Lm54321@*' para realizar pruebas 
 de contraseña inválida o campos obligatorios. 
