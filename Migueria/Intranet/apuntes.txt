@@ -4,3 +4,12 @@ para que el navbar ocupe el 100% del segmento a lo ancho permitiéndole ocupar e
 segmento está establecido así
 
 Box-shadow: Permite agregarle sombras a los objetos botones o secciones de la página agregando un efecto especial al mismo 
+
+Las fuentes agregadas para esta página son 'Archer-Book-Pro' y la  'Hagin Caps Thin' 
+
+En la sección de Beneficios aún no se termina de definir cuales beneficios van a ser autorizadas por lo tanto algunas de ellas no tienen cuadro de 
+dialogo con los términos y condiciones.
+
+Algunas de las imágenes usadas en la sección de Beneficios son de uso didáctico y temporal hasta que se reemplazen por fotos tomadas por el personal encargado
+
+En la sección de Conócenos está en estudio la misión, la visión y los valores para establecer que son los correctos y establecidos por la compañía
