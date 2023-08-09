@@ -52,7 +52,7 @@ document.getElementById('login').addEventListener('submit', loginPage);*/
             alert('Usuario o clave incorrecta')
         }
        }else{
-        if(usuario == "" && password == ""){
+        if(usuario == "" || password == ""){
             alert('Todos los campos son obligatorios')
         }
        }
