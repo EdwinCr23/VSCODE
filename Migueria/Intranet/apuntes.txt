@@ -13,3 +13,6 @@ dialogo con los términos y condiciones.
 Algunas de las imágenes usadas en la sección de Beneficios son de uso didáctico y temporal hasta que se reemplazen por fotos tomadas por el personal encargado
 
 En la sección de Conócenos está en estudio la misión, la visión y los valores para establecer que son los correctos y establecidos por la compañía
+
+La función que permite el Inicio de sesión al momento sólo está configurada con el ususario 'ecardenas' con contraseña 'Lm54321@*' para realizar pruebas 
+de contraseña inválida o campos obligatorios. 

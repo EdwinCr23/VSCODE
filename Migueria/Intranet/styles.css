@@ -34,7 +34,7 @@ body{
   margin: auto;
   margin-top: 20px;
   width: 410px;
-  height: 410px;
+  height: 430px;
   border: 1px solid #000;
   border-radius: 2em;
   padding: 15px 20px 15px 40px;
@@ -51,17 +51,17 @@ body{
   margin: auto;
   /*background-color: #54351a;*/
   margin-top: 12px;
-  width: 125px;
-  height: 115px;
+  width: 160px;
+  height: 135px;
   top: 50%;
   left: 50%;
-  transform: translate(25%, -5%);
+  transform: translate(10%, 10%);
 }
 
 .logo-form{
   border-radius: 50rex;
   width: 45%;
-  background: #54351a;
+  /*background: #54351a;*/
   margin: auto;
   top: 50%;
   left: 50%;
