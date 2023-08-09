@@ -59,7 +59,7 @@ body{
 }
 
 .logo-form{
-  border-radius: 55rex;
+  border-radius: 50rex;
   width: 45%;
   background: #54351a;
   margin: auto;
@@ -69,12 +69,27 @@ body{
 }
 
 .Input{
-  margin: 12px;
+  background: #eae3d7;
+  margin: 10px;
+  border: 1px solid #54351a;
   width: 60%;
-  padding: 5px;
+  padding: 4px;
   font-family: 'Archer-Book-Pro';
+  border-radius: 0.5em;
 }
 
+.Input:active{
+  border: 2px solid #c59f61;
+  background: #54351a;
+  color: #fff;
+  box-shadow: 3px 6px 15px #000;
+}
+
+.Input:focus{
+  background: #54351a;
+  color: #fff;
+  box-shadow: 3px 6px 15px #000;
+}
 
 
 .boton{
