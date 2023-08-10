@@ -20,8 +20,6 @@ body{
   position: relative;
   align-content:space-evenly;
   text-decoration: none;
-  
-
 }
 
 .login{
@@ -112,7 +110,6 @@ body{
   box-shadow: 3px 6px 15px #000;
 }
 
-
 .boton-login{
   background-color: #54351a;
   font-family: 'Archer-Book-Pro';
@@ -143,8 +140,6 @@ body{
   border: none;
 }
 
-
-
 .banner-principal{
   width: 100%;
   background: #54351a;
@@ -152,7 +147,6 @@ body{
   text-align: center;
   vertical-align: top;
   align-items: center;
-    
 }
 
 .banner-principal .logout{
@@ -218,7 +212,6 @@ h3{
 .enlaces{
   padding: 1px;
   position: relative;
-
 }
 
 a{
@@ -233,8 +226,8 @@ a{
 .cuerpo{
   background-color: #eae3d7;
   padding-top: 15px;
-  
 }
+
 p{
   font-family: 'Archer-Book-Pro';
   /**font-family: 'Shadows Into Light', cursive;**/
@@ -245,8 +238,6 @@ p{
 .menu{
   padding-top: 1 px;
 }
-
-
 
 #calendar {
   width: 300px;
@@ -290,9 +281,8 @@ p{
   border: 1px solid #101010;
   border-radius: 3px;
   width: 90%;
- 
 }
-  
+
 button{
   border: none;
   font: bolder;
@@ -318,7 +308,6 @@ button:hover{
   padding: 15px 25px 10px;
   border-radius: 10px;
   text-decoration: none;
-    
 }
 
 .sst{
@@ -355,16 +344,13 @@ button:hover{
   display: flex;
   flex-direction: column;
   text-align: center;
-
   box-shadow: 3px 7px 14px #54351a;
 }
-  
 
 .card{
   width: 100%;
   display: block;
-} 
-
+}
 
 .card1{
   align-items: center;
@@ -409,7 +395,7 @@ button:hover{
   color: #54351a;
   text-align: center;
   margin: 0;
-}  
+}
 
 .card-description{
   flex-grow: 1;
@@ -446,7 +432,6 @@ dialog{
   margin-top: 10px; 
 }
 
-
 .btn{
   display: block;
   background-color: var(--secondary);
@@ -457,8 +442,7 @@ dialog{
   color: #fff;
   border-radius: 2em;
   text-align: center;
-  margin-top: 10px;
- 
+  margin-top: 10px; 
 }
 
 .btn:hover{
@@ -479,8 +463,6 @@ dialog{
   gap:  10px;
 }
 
-}
-
 footer{
   background-color: #eae3d7;
   padding-top: 12px;
@@ -499,8 +481,7 @@ footer{
   box-shadow: 2px 6px 15px #000;
 }
 
-a:hover{
-  
+a:hover{  
   background-color: #eae3d7;
   color: #54351a;
   /**font-family: 'Archer-BookItal-Pro';**/
@@ -511,15 +492,11 @@ a:hover{
   box-shadow: 2px 6px 15px #000;
 }
 
-
 .redes{
   display: block;
   text-align: center;
-  padding-top: 10px;
-   
+  padding-top: 10px;   
 }
-
-
 
 .redsocial{ 
   text-decoration: none;
@@ -529,8 +506,6 @@ a:hover{
   padding: 10px 5px 5px 2px;
 }
 
-
-
 .redsocial:hover{
   text-decoration: none;
   border: none;
@@ -539,13 +514,12 @@ a:hover{
   
 }
 
-ul {
+ul{
   list-style: none;
   padding: 0;
   margin: 0;
 }
   
-form li + li {
+form li + li{
   margin-top: 1em;
 }
- 
