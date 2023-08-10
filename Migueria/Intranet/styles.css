@@ -14,6 +14,7 @@ body{
   background-color: var(--light);   
 }
 
+
 .logout{
   border: #000;
   position: relative;
@@ -28,6 +29,12 @@ body{
   background-size: 1280px 720px;
 }
 
+.frase{
+  background: #c59f61;
+  opacity:70%;
+  width: 100%;
+  text-align: center;  
+}
 
 .form-login{
   background: #eae3d7;
@@ -78,7 +85,7 @@ body{
   margin-top: 1px;
   margin-bottom: 12px;
   border: 1px solid #54351a;
-  width: 60%;
+  width: 40%;
   padding: 4px;
   font-family: 'Archer-Book-Pro';
   border-radius: 0.5em;
