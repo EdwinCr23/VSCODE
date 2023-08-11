@@ -61,7 +61,7 @@ app.delete('/usuarios/:id', (req, res) => {
 });
 
 //Iniciar el servidor
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5501;
 app.listen(PORT, ()=>{
     console.log(`El servidor está conectado al puerto ${PORT}`)
-})
+});
