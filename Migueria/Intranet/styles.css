@@ -46,12 +46,17 @@ body{
   background: #eae3d7;
   margin: auto;
   margin-top: 20px;
-  width: 410px;
-  height: 430px;
+  width: 420px;
+  height: 450px;
   border: 1px solid #000;
   border-radius: 2em;
   padding: 15px 20px 15px 40px;
   box-shadow: 5px 10px 25px #000;
+}
+
+marquee{
+  font-family:'Archer-Book-Pro' ;
+  color:#54351a
 }
 
 .form-login p{
