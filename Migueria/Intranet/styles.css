@@ -56,7 +56,8 @@ body{
 
 marquee{
   font-family:'Archer-Book-Pro' ;
-  color:#54351a
+  color:#54351a;
+  list-style-image: url("Images/Gorrito.png");
 }
 
 .form-login p{
