@@ -60,6 +60,11 @@ marquee{
   list-style-image: url("Images/Gorrito.png");
 }
 
+.marquesina{
+  font-family:'Archer-Book-Pro' ;
+  color:#eae3d7;
+}
+
 .form-login p{
   text-align: center;
   margin-top: 1px #000;
