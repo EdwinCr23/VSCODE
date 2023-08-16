@@ -108,6 +108,20 @@ marquee{
   border-radius: 0.5em;
 }
 
+button#toggle-password {
+  background: none;
+  border: none;
+  cursor: pointer;
+  /* La consulta de medios no se muestra aquí. */
+  font-size: var(--mobile-font-size);
+  font-weight: 300;
+  padding: 0;
+  /* Mostrar en la parte superior derecha del contenedor */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .Input:active{
   border: 2px solid #c59f61;
   background: #54351a;

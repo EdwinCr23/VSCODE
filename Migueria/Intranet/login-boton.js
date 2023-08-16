@@ -58,3 +58,5 @@ function Login(){
     }
 }
 document.oncontextmenu = function(){return false}
+
+const inputPassword = document.getElementsById('password');
