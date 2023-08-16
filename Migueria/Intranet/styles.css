@@ -108,8 +108,10 @@ marquee{
   border-radius: 0.5em;
 }
 
-.showPass{
+#showPasswordButton{
   background: none;
+  border-radius: 2rem;
+  width: 20%;
 }
 
 .show-icon {
