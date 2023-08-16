@@ -59,4 +59,19 @@ function Login(){
 }
 document.oncontextmenu = function(){return false}
 
-const inputPassword = document.getElementsById('password');
+const passwordInput = document.getElementById('password');
+const showPasswordButton = document.getElementById('showPasswordButton');
+const showIcon = document.getElementById('showIcon');
+const hideIcon = document.getElementById('hideIcon');
+
+showPasswordButton.addEventListener('click', () => {
+  if (passwordInput.type === 'password') {
+    passwordInput.type = 'text';
+    showIcon.style.display = 'none';
+    hideIcon.style.display = 'inline-block';
+  } else {
+    passwordInput.type = 'password';
+    showIcon.style.display = 'inline-block';
+    hideIcon.style.display = 'none';
+  }
+});

@@ -47,7 +47,7 @@ body{
   margin: auto;
   margin-top: 20px;
   width: 420px;
-  height: 450px;
+  height: 475px;
   border: 1px solid #000;
   border-radius: 2em;
   padding: 15px 20px 15px 40px;
@@ -108,18 +108,16 @@ marquee{
   border-radius: 0.5em;
 }
 
-button#toggle-password {
+.showPass{
   background: none;
-  border: none;
-  cursor: pointer;
-  /* La consulta de medios no se muestra aquí. */
-  font-size: var(--mobile-font-size);
-  font-weight: 300;
-  padding: 0;
-  /* Mostrar en la parte superior derecha del contenedor */
-  position: absolute;
-  top: 0;
-  right: 0;
+}
+
+.show-icon {
+  display: inline-block;
+}
+
+.hide-icon {
+  display: none;
 }
 
 .Input:active{
