@@ -5,16 +5,44 @@
 body{
     background: #eae3d7;
 }
-h1{
+header{
+    background: #54351a;
     font-family: 'Hagin Caps Thin';
+    color: #eae3d7;
     text-align: center;
 
 }
-.container{
+.container-1{
+    margin-top: 21px;
     border: 0;
     display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    
 }
-caption{
+.container-2{
+    margin-top: 21px;
+    border: 0;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+.container-3{
+    margin-top: 21px;
+    border: 0;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    
+}
+caption{    
+    color: #54351a;
     font-family: 'archer-book-pro'
 }
 .calen{
@@ -22,18 +50,27 @@ caption{
     font-family: 'archer-book-pro';
     text-align: center;
     width: 20%;
+    
 }
 .calen tr td{
-    border: 1px solid #000;
+    border: 1px solid #54351a;
 }
 .calen tr th{
-    background: #000;
-    color: #fff;
-}
-th{
-    background: grey;
+    background: #54351a;
+    color: #eae3d7;
 }
 .fes{
-    background: rgb(227, 169, 63);
+   background: #54351a;
+   color: #eae3d7;
+}
+button{
+    background: #eae3d7;
+    border: none;
+}
+
+button:hover{
+    background-color: #54351a;
+    color: #eae3d7;
+    box-shadow: 2px 7px 14px #000;
 }
 
