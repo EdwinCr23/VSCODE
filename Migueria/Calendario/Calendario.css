@@ -1,0 +1,39 @@
+@font-face {
+    font-family: archer-book-pro;
+    src: url(./Tipografía/Archer-Book-Pro.otf);
+}
+body{
+    background: #eae3d7;
+}
+h1{
+    font-family: 'Hagin Caps Thin';
+    text-align: center;
+
+}
+.container{
+    border: 0;
+    display: flex;
+}
+caption{
+    font-family: 'archer-book-pro'
+}
+.calen{
+    padding: 0 21px 21px 0;
+    font-family: 'archer-book-pro';
+    text-align: center;
+    width: 20%;
+}
+.calen tr td{
+    border: 1px solid #000;
+}
+.calen tr th{
+    background: #000;
+    color: #fff;
+}
+th{
+    background: grey;
+}
+.fes{
+    background: rgb(227, 169, 63);
+}
+
