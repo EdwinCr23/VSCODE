@@ -2,6 +2,11 @@
     font-family: Archer-Book-Pro;
     src: url(./Tipografía/Archer-Book-Pro.otf)
   }
+  hr {
+    border: 0;
+    height: 20px;
+    background:url("./Images/Gorrito.png")repeat-x;
+    }
 
 *{
     margin: 0;
@@ -35,6 +40,35 @@ body p{
     top: 50%;
     left: 50%;
     transform: translate(390%, 2%);
+}
+
+.enlaces{
+    display: block;
+    justify-content: center;
+    margin: 10px 20px;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    transform: translate(30%, 40%);
+    font-size: 20px;
+}
+
+.enlaces a{
+    background: #54351a;
+    color: #eae3d7;
+    text-decoration: none;
+    font-family: archer-book-pro;
+    font-weight: 700;
+    border:1px solid #eae3d7;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.enlaces a:hover{
+    background: #eae3d7;
+    color: #54351a;
+    border:1px solid #54351a;
+    box-shadow: 2px 6px 15px #000;
 }
 
 .title{
@@ -72,7 +106,11 @@ body p{
 }
 
 .escuela-secciones a{
+    background-color: #eae3d7;
     color: #54351a;
+    border: 1px solid #54351a;
+    border-radius: 5px;
+    padding: 5px;
     text-decoration: none;
     margin: 10px 20px;
     font-size: 18px;
@@ -81,7 +119,7 @@ body p{
 }
 
 .Servicio{
-    width: 40%;
+    width: 60%;
     max-width: 900px;
     height: auto;
     margin: auto;
@@ -89,7 +127,7 @@ body p{
 }
 
 .Inducción{
-    width: 40%;
+    width: 60%;
     max-width: 900px;
     height: auto;
     margin:auto;
@@ -97,7 +135,7 @@ body p{
 }
 
 .miguerito{
-    width: 40%;
+    width: 60%;
     max-width: 900px;
     height: auto;
     margin:auto;
@@ -111,7 +149,11 @@ body p{
 }
 
 .menu a{
+    background: #eae3d7;
     color: #54351a;
+    border: 1px solid #54351a;
+    border-radius: 5px;
+    padding: 5px;
     text-decoration: none;
     margin: 10px 20px;
     font-size: 18px;
