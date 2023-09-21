@@ -1,0 +1,121 @@
+@font-face{
+    font-family: Archer-Book-Pro;
+    src: url(./Tipografía/Archer-Book-Pro.otf)
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #eae3d7;
+}
+
+.escuela{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    display: block;
+}
+
+.logo-mig{
+    background: #54351a;
+    
+}
+
+.logo-mig img{
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(390%, 2%);
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Hagin Caps Thin';
+    font: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.escuela form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-busqueda{
+    width: 40%;
+    height: 20px;
+    line-height: 40px;
+    padding: 0 20px;
+    text-align: center;
+    background: #fff;
+    border: #eae3d7;
+    border-radius: 2px;
+    font-family:'Archer-Book-Pro';
+}
+
+.escuela-secciones{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.escuela-secciones a{
+    color: #54351a;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-family:'Hagin Caps Thin';
+    font-weight: 700;
+}
+
+.Servicio{
+    width: 40%;
+    max-width: 900px;
+    height: 140px;
+    margin: auto;
+    padding: 10 0 20 0;
+}
+
+.Inducción{
+    width: 40%;
+    max-width: 900px;
+    height: 140px;
+    margin:auto;
+    padding: 10 0 20 0;
+}
+
+.Cat-Indu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Cat-Indu a{
+    color: #54351a;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-family:'Hagin Caps Thin';
+    font-weight: 700;
+}
+
+a:hover{
+    background: #54351a;
+    color: #eae3d7;
+    border-radius: 5px;
+}
+
+h1{
+    color: #54351a;
+    font-family:'Hagin Caps Thin';
+    text-align: center;
+}
+
