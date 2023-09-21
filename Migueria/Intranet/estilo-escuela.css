@@ -11,6 +11,10 @@
 body{
     background: #eae3d7;
 }
+body p{
+    color: #54351a;
+    font-family: 'Archer-Book-Pro';
+}
 
 .escuela{
     width: 90%;
@@ -85,6 +89,14 @@ body{
 }
 
 .Inducción{
+    width: 40%;
+    max-width: 900px;
+    height: auto;
+    margin:auto;
+    padding: 10 0 20 0;
+}
+
+.miguerito{
     width: 40%;
     max-width: 900px;
     height: auto;
