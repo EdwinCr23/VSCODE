@@ -79,7 +79,7 @@ body{
 .Servicio{
     width: 40%;
     max-width: 900px;
-    height: 140px;
+    height: auto;
     margin: auto;
     padding: 10 0 20 0;
 }
@@ -87,18 +87,18 @@ body{
 .Inducción{
     width: 40%;
     max-width: 900px;
-    height: 140px;
+    height: auto;
     margin:auto;
     padding: 10 0 20 0;
 }
 
-.Cat-Indu{
+.menu{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.Cat-Indu a{
+.menu a{
     color: #54351a;
     text-decoration: none;
     margin: 10px 20px;
