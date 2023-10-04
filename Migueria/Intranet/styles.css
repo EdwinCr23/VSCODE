@@ -108,20 +108,6 @@ marquee{
   border-radius: 0.5em;
 }
 
-#showPasswordButton{
-  background: none;
-  border-radius: 2rem;
-  width: 20%;
-}
-
-.show-icon {
-  display: inline-block;
-}
-
-.hide-icon {
-  display: none;
-}
-
 .Input:active{
   border: 2px solid #c59f61;
   background: #54351a;
@@ -187,6 +173,7 @@ marquee{
   padding: 15px 25px 10px;
   border-radius: 12px;
   text-decoration: none;
+  cursor: pointer;
   /**box-shadow: 3px 7px 14px #54351a;**/
 }
 
@@ -306,13 +293,15 @@ p{
   border: 1px solid #101010;
   border-radius: 3px;
   width: 90%;
+  cursor: pointer;
 }
 
 button{
   border: none;
   font: bolder;
   background-color: #eae3d7;
-  font-family: 'Hagin Caps Thin';  
+  font-family: 'Hagin Caps Thin'; 
+  cursor: pointer; 
 }
 
 button:hover{
@@ -333,6 +322,7 @@ button:hover{
   padding: 15px 25px 10px;
   border-radius: 10px;
   text-decoration: none;
+  cursor: pointer; 
 }
 
 .sst{
@@ -451,6 +441,7 @@ dialog{
   color: #fff;
   border-radius: 2em;
   text-align: center;
+  cursor: pointer; 
   top: 50%;
   left: 50%;
   transform: translate(100%, -10%);
@@ -468,6 +459,7 @@ dialog{
   border-radius: 2em;
   text-align: center;
   margin-top: 10px; 
+  cursor: pointer; 
 }
 
 .btn:hover{

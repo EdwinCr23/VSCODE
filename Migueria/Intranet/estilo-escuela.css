@@ -69,6 +69,7 @@ body p{
     color: #54351a;
     border:1px solid #54351a;
     box-shadow: 2px 6px 15px #000;
+    transition: 1s;
 }
 
 .title{
