@@ -21,6 +21,18 @@ body p{
     font-family: 'Archer-Book-Pro';
 }
 
+h3{
+    color: #54351a;
+    font-family: 'Archer-Book-Pro';
+    text-align: center;
+}
+
+h4{
+    color: #54351a;
+    font-family: 'Archer-Book-Pro';
+    text-align: center;
+}
+
 .escuela{
     width: 90%;
     max-width: 900px;
@@ -133,6 +145,20 @@ body p{
     height: auto;
     margin:auto;
     padding: 10 0 20 0;
+}
+
+.Inducción img{
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -2%);
+}
+
+.Inducción .etapas{
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(8%, -2%);
 }
 
 .miguerito{
